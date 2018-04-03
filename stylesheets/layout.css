@@ -15,6 +15,26 @@ a {
   text-decoration: none;
   }
 
+  .landingWrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
+
+
 .menu {
   width: 100vw;
   height: 50px;
@@ -51,6 +71,7 @@ section.part {
   width: 1440px;
   height: 800px;
   display: flex;
+  overflow: hidden;
 }
 
 section.text {
@@ -79,8 +100,8 @@ section.text {
   color: white;
 }
 
-.right .text {
-  margin-left: 33px;
+.text {
+  width: 342px;
 }
 
 .center  {
@@ -89,6 +110,10 @@ section.text {
   align-items: center;
   text-align: center;
   width: 100%;
+}
+
+.center section {
+  margin: auto;
 }
 
 .picture-1 {
@@ -127,6 +152,8 @@ section.text {
 }
 
 .button {
+  margin-top: 61px;
+  display: block;
   width: 300px;
   height: 50px;
   background-color: #77FFE1;
@@ -135,19 +162,16 @@ section.text {
   font-size: 17px;
   line-height: 50px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-  /* position: relative;
-  margin-top: 495px; */
   cursor: pointer;
   margin: 0 auto;
 }
 
 .share {
+  top: 14px;
   color: white;
   font-size: 16px;
   text-decoration: underline;
   position: relative;
-  /* margin-top: 559px;
-  position: relative; */
   cursor: pointer;
   margin: auto;
 }

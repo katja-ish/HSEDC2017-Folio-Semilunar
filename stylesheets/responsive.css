@@ -1,230 +1,110 @@
-@media all and (max-width: 1340px) {
-  .sidebar {
-  display: none;
-  }
-}
+@media screen and (min-width: 1680px)  {
 
-@media all and (max-width: 1080px) {
-  .galleryNav div::before,
-  .galleryNav div::after {
-  background: white;
-}
-}
-
-@media all and (max-width: 1020px) {
-  article > img,
-  article > iframe,
-  .galleryRail img {
+  .landingWrapper {
     width: 100%;
-}
-}
-
-@media all and (max-width: 740px) {
-
-  article {
-    width: 100%;
-    padding: 0 20px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    background-color: #FAFAFA;
   }
 
-
-  .gallery {
-    margin-left: -20px;
-    width: calc(100% + 40px);
-
-  }
-
-  .galleryRail figure, .galleryRail img {
-    width: 100%;
-  }
-
-  .galleryNav div::before, .galleryNav div::after {
-    background: #fff;
-  }
-
- .postsFeed {
-    padding-top: 60px;
-  }
-
-  .postsFeed  a {
-    width: calc(100vw - 40px);
-    padding: 50px;
-  }
-
-  .postsFeed p {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .postsFeed h2 {
-  font-size: 20px;
 }
 
-  .postsFeed figure {
-  width: 100%;
-}
-
-
-
-
-
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 768px)  {
 
   .menu {
     width: 100vw;
-    height: 30px;
-  }
-
-
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 1300px;
-  }
-
-  section {
-    padding-left: -80px;
-    margin-top: 120px;
-    margin-left: -160px;
-    margin-top: 120px;
-    height: 600px;
-
+    height: 42px;
   }
 
   p {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 26px;
   }
 
   h2 {
-    font-size: 34px;
-    line-height: 44px;
-  }
-
-  .left section {
-    margin-left: 80px;
-  }
-
-  .right section {
-    margin-left: 80px;
-  }
-
-  .center section {
-    margin-left: 80px;
-  }
-
-  .mockup {
-    background-size: cover;
-    margin-top: 370px;
-    width: calc(100vw - 60px);
-    height: calc(100vh - 300px);
-    right: 0px;
-
-  }
-
-  .mockup-1 {
-    margin-top: 350px;
-  }
-
-  .mockup-2 {
-    height: 1000px;
-    margin-top: 380px;
-  }
-
-  .mockup-3 {
-    margin-top: 450px;
-  }
-
-  .left figure {
-    margin-left: -30px;
-    margin-top: 60px;
-  }
-
-  .right section figure {
-    margin-left: 300px;
-    margin-top: 40px;
-  }
-
-
-}
-
-
-@media (max-width: 767px) {
-
-  .menu {
-    width: 100vw;
-    height: 30px;
-  }
-
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 750px;
-  }
-
-  p {
-      font-size: 14px;
-      line-height: 24px;
-  }
-
-  h2 {
-      font-size: 23px;
-      line-height: 33px;
-  }
-
-  section {
-    margin-top: 80px;
-    height: 600px;
-  }
-
-  .left section {
-    margin-left: 30px;
-  }
-
-  .right section {
-    margin-left: 30px;
-  }
-
-  .center section {
-    margin-left: 30px;
-  }
-
-  .mockup {
-    margin-top: 230px;
-    width: calc(100vw - 60px);
-    height: calc(100vh - 300px);
-    right: 0px;
-  }
-
-  .mockup-2 {
-    height: 400px;
-    margin-top: 255px;
-    right: -100px;
-  }
-
-  .mockup-3 {
-    margin-top: 280px;
+    font-size: 30px;
+    line-height: 39px;
   }
 
   .logo {
-    width: 130px;
-    height: 12px;
+    width: 58px;
+    height: 16px;
   }
 
-  .about {
-    font-size: 10px;
-    line-height: 40px;
+  section.part {
+    width: 768px;
+    height: 1024px;
+    display: flex;
   }
 
-  .left figure {
-    margin-left: 10px;
-    margin-top: 40px;
+  section.text {
+    position: relative;
+    top: 134px;
+    left: 114px;
+    width: 342px;
   }
 
-  .right section figure {
-    margin-left: 80px;
-    margin-top: 30px;
+  .line {
+    height: 4px;
+    width: 22px;
+    margin-top: 44px;
+  }
+
+  .picture-1 {
+    height: 542px;
+    width: 540px;
+    top: 482px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    left: -155px;
+  }
+
+  .pictures {
+    margin: auto;
+    margin-top: 456px;
+  }
+
+  .picture-2 {
+    width: 643px;
+    height: 403px;
+    top: 506px;
+    margin-left: -380px;
+    overflow: hidden;
+  }
+
+  .right .text {
+    margin-top: -60px;
+    margin-left: -312px;
+    left: -114px;
+  }
+
+  .center section {
+    margin-top: 184px;
+  }
+
+  .button {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    margin-top: 94px;
+  }
+
+  .share {
+    top: 9px;
   }
 
 }
