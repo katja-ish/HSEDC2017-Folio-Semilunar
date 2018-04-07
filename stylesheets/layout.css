@@ -78,6 +78,7 @@ section.text {
   position: relative;
   top: 186px;
   left: 160px;
+  width: 480px;
 }
 
 .line {
@@ -152,7 +153,8 @@ section.text {
 }
 
 .button {
-  margin-top: 61px;
+  position: relative;
+  top: 61px;
   display: block;
   width: 300px;
   height: 50px;
@@ -167,11 +169,11 @@ section.text {
 }
 
 .share {
-  top: 14px;
+  position: relative;
+  top: 70px;
   color: white;
   font-size: 16px;
   text-decoration: underline;
-  position: relative;
   cursor: pointer;
   margin: auto;
 }
